@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:poppins;
+}
+/*nav styling*/
+.nav{
+    background-color: black;
+    justify-content: space-evenly;
+    overflow: hidden;
+    width:100%;
+}
+.logo{
+    width:165px;
+    height:48.5px;
+    padding-top:27.5px;
+    padding-bottom: 27.5px;
+}
+.navbar-nav ul{
+    padding-top: 37px;
+    padding-left: 60px;
+}
+.navbar-nav ul li{
+    display: inline;
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+.navbar-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-nav ul li a:hover{
+    color:rgba(0, 255, 167, 1);
+    cursor: pointer;
+}
+.chain{
+    color:rgba(255, 255, 0, 1);
+}
+.tech{
+    color:rgba(0, 255, 167, 1);
+}
+/*header section*/
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 150px 0 70px 0;
+    overflow: hidden;
+    width:100%;
+}
+.header h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+.header p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.header button{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+}
+.header button span{
+    padding: 0 5px;
+}
+/*services*/
+.services{
+    overflow: hidden;
+    width:100%;
+}
+.services-head{
+    padding:30px 30px 10px 150px;
+}
+.services-para {
+    display: flex;
+}
+.services-para p{
+    padding-right: 310px;
+}
+.services-para i{
+    padding:0 10px;
+}
+
+.services h2{
+    font-weight: 32px;
+    font-weight: 600;
+}
+.services_main{
+    display: flex;
+    gap:15px;
+    padding:30px 100px 10px 150px;
+}
+/*servives div one*/
+/*styling for services_main and services_main2*/
+.services_main .one{
+    border:1px solid black;
+    background-color:#d0f4de;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.one-div{
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    padding:10px;
+}
+.one img{
+    padding:0 20px;
+}
+
+.services_main .one h6{
+    font-size: 23px;
+    font-weight: 600;
+    padding:10px;
+}
+.one-last{
+    border-top: 2px solid black;
+    text-align: right;
+    padding-right: 20px;
+}
+.services_main .one button{
+    color:black;
+    border:2px solid black;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    padding:5px 20px;
+    font-weight: 600;
+    margin:20px 0;
+}
+.explore{
+    padding: 2px 3px;
+    border:1px solid white;
+    background-color: rgba(255, 255, 0, 1);
+    border-radius: 30px;
+}
+/*servives div two*/
+.services_main .two{
+    border:1px solid black;
+    background-color:#b5e2fa;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.two-div{
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    padding:10px;
+}
+.services_main .two h6{
+    font-size: 23px;
+    font-weight: 600;
+    padding:10px;
+}
+.two img{
+    padding:0 20px;
+}
+
+.two-last{
+    border-top: 2px solid black;
+    text-align: right;
+    padding-right: 20px;
+}
+.services_main .two button{
+    color:black;
+    border:2px solid black;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    padding:5px 20px;
+    font-weight: 600;
+    margin:20px 0;
+    
+}
+/*servives div three*/
+.services_main .three{
+    border:1px solid black;
+    background-color:#fcd5ce;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.three-div{
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    padding:10px;
+}
+.services_main .three h6{
+    font-size: 23px;
+    font-weight: 600;
+    padding:10px;
+}
+
+.three-last{
+    border-top: 2px solid black;
+    text-align: right;
+    padding-right: 20px;
+}
+.three img{
+    padding:0 20px;
+}
+.services_main .three button{
+    color:black;
+    border:2px solid black;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    padding:5px 20px;
+    font-weight: 600;
+    margin:20px 0;
+    
+}
+/* servives div four*/
+.services_main .four{
+    border:1px solid black;
+    background-color:#d0d1ff;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.four-div{
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    padding:10px;
+}
+.services_main .four h6{
+    font-size: 23px;
+    font-weight: 600;
+    padding:10px;
+}
+.four img{
+    padding:0 20px;
+}
+
+.four-last{
+    border-top: 2px solid black;
+    text-align: right;
+    padding-right: 20px;
+}
+.services_main .four button{
+    color:black;
+    border:2px solid black;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    padding:5px 20px;
+    font-weight: 600;
+    margin:20px 0;
+    
+}
+/*footer*/
+.footer{
+    background-color: black;
+    padding:0 270px;
+    overflow: hidden;
+    width:100%;
+}
+.footer .footer-img{
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.footer .footer-img img{
+    padding: 30px 0 30px 0;
+}
+.footer .footer-txt{
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px 0 30px 0;
+}
+@media (max-width:992px){
+    .services-head h2{
+    text-align: center;
+    }
+     .services-para{
+        flex-direction: column;
+     }
+     .services-para p {
+        padding-right: 0;
+        text-align: center;
+    }
+    .services_main {
+        flex-direction: column;
+        gap: 15px;
+        padding: 30px 100px 10px 150px;
+    }
+    .services-para i {
+        padding: 0;
+        text-align: center;
+    }
+}
+@media (max-width:768px){
+    .logo {
+        padding-top: 40px;
+    }
+    .header {
+        padding: 250px 0 70px 0;
+
+    }
+    .services-head {
+        padding: 30px 30px 10px 50px;
+    }
+    .navbar-nav ul {
+        padding-left: 10px;
+    }
+    .services_main {
+        padding: 30px 100px 10px 100px;
+    }
+    .footer {
+        padding: 0 100px;
+
+    }
+    .header button {
+       margin-top: 20px;
+    }
+    .services-para p {
+        font-size: 16px;
+    }
+}
+@media (max-width:600px){
+    .navbar-nav ul li {
+        padding: 0 8px;
+    }
+    .header h1 {
+        font-size: 60px;
+        font-weight: 900;
+    }
+    .header p {
+        font-size: 16px;
+        padding: 20px 60px;
+    }
+    .services-para p {
+        font-size: 13px;
+    }
+    .footer {
+        padding: 0 70px;
+    }
+}
